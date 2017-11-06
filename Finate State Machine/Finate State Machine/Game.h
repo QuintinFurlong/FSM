@@ -6,7 +6,12 @@
 #include <iostream>
 #include <chrono>
 #include <thread>
-#include "Animation.h"
+
+#include "Hammering.h"
+#include "Walking.h"
+#include "Jumping.h"
+#include "Shoveling.h"
+#include "Swordsmanship.h"
 
 class Game
 {
@@ -20,6 +25,7 @@ private:
 	sf::RenderWindow m_window; // main SFML window
 	sf::Font m_ArialBlackfont;
 	sf::Text m_Message;
+	Animation m_fsm;
 
 	void processEvents();
 	void update(sf::Time t_deltaTime);

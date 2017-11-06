@@ -41,8 +41,25 @@ void Game::processEvents()
 		}
 		if (sf::Event::KeyPressed == event.type) //user key press
 		{
-			if (sf::Keyboard::Space == event.key.code)
+			if (sf::Keyboard::J == event.key.code)
 			{
+				m_fsm.jumping();
+			}
+			if (sf::Keyboard::H == event.key.code)
+			{
+				m_fsm.hammering();
+			}
+			if (sf::Keyboard::D == event.key.code)
+			{
+				m_fsm.shoveling();
+			}
+			if (sf::Keyboard::S == event.key.code)
+			{
+				m_fsm.swordsmanship();
+			}
+			if (sf::Keyboard::W == event.key.code)
+			{
+				m_fsm.walking();
 			}
 		}
 	}

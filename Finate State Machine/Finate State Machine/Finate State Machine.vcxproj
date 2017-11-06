@@ -126,7 +126,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animation.h" />
-    <ClInclude Include="Climbing.h" />
+    <ClInclude Include="Hammering.h" />
+    <ClInclude Include="Shoveling.h" />
+    <ClInclude Include="Swordsmanship.h" />
+    <ClInclude Include="Walking.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Idle.h" />
     <ClInclude Include="Jumping.h" />

@@ -44,7 +44,16 @@
     <ClInclude Include="Jumping.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Climbing.h">
+    <ClInclude Include="Walking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hammering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shoveling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Swordsmanship.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

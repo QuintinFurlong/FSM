@@ -13,7 +13,10 @@ public:
 	{ current = s; }
 	void idle();
 	void jumping();
-	void climbing();
+	void hammering();
+	void shoveling();
+	void swordsmanship();
+	void walking();
 };
 
 #endif // !ANIMATION

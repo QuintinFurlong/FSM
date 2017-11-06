@@ -2,7 +2,7 @@
 
 Animation::Animation()
 {
-	//current = new Idle();
+	current = new Idle();
 }
 
 void Animation::idle()
@@ -15,7 +15,22 @@ void Animation::jumping()
 	current->jumping(this);
 }
 
-void Animation::climbing()
+void Animation::hammering()
 {
-	current->climbing(this);
+	current->hammering(this);
+}
+
+void Animation::shoveling()
+{
+	current->shoveling(this);
+}
+
+void Animation::swordsmanship()
+{
+	current->swordsmanship(this);
+}
+
+void Animation::walking()
+{
+	current->walking(this);
 }

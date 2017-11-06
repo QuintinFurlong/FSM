@@ -2,15 +2,21 @@
 #define IDLE
 
 #include "State.h"
-#include "Animation.h"
+class Animation;
 
 class Idle : public State
 {
+public:
 	Idle() {};
 	~Idle() {};
+	void hammering(Animation* a);
 	void jumping(Animation* a);
-	void climbing(Animation* a);
+	void shoveling(Animation* a);
+	void swordsmanship(Animation* a);
+	void walking(Animation* a);
 };
+
+#include "Animation.h"
 
 #endif // !IDLE
 
