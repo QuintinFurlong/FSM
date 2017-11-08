@@ -56,5 +56,8 @@
     <ClInclude Include="Swordsmanship.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Climbing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

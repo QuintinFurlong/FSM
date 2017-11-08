@@ -17,6 +17,7 @@ public:
 	void shoveling();
 	void swordsmanship();
 	void walking();
+	void climbing();
 };
 
 #endif // !ANIMATION

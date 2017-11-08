@@ -2,6 +2,7 @@
 #define STATE
 
 #include <iostream>
+#include <SFML/Graphics.hpp>
 class Animation;
 
 class State
@@ -24,6 +25,10 @@ public:
 
 	virtual void walking(Animation* a)
 	{ std::cout << "State::Walking" << std::endl; }
+
+	virtual void climbing(Animation* a)
+	{ std::cout << "State::Climbing" << std::endl; }
+
 };
 
 #include "Animation.h"
